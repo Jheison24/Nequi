@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nequi</title>
+  </head>
+  <body>
+    <div id="mensaje" class="container">
+      <div>
+        <label for="clave">Clave :</label>
+        <input
+          type="password"
+          name="clave"
+          id="clave"
+          placeholder="Ingrese Contraseña"
+        />
+      </div>
+
+      <div>
+        <label for="valor">Valor :</label>
+        <input
+          type="text"
+          name="valor"
+          id="valor"
+          placeholder="Ingrese Monto"
+        />
+      </div>
+
+      <div>
+        <button id="añadir">Añadir</button>
+        <button id="eliminar">Eliminar</button>
+        <button id="limpiar">limpiar</button>
+      </div>
+    </div>
+
+    <div id="datos"></div>
+
+    <div id="montoIngresado" class="container">
+      <h2>Monto Ingresado :</h2>
+      <ul id="ListaMonto"></ul>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
